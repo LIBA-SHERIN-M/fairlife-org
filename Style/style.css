@@ -1,0 +1,268 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 200vh;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.banner{
+    width: 100%;
+    height: 46px;
+    background-color: #002d73;
+    display: flex;
+   justify-content: center;
+}
+
+.banner-txt{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.banner-txt:hover{
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height:90px ;
+    width: 100%;
+    background-color: white;
+    padding: 0 50px;
+    align-items: flex-end;
+}
+
+
+.header-image{
+    width:200px;
+    height: 80%;
+}
+
+.header-image > img{
+   object-fit: cover;
+   width: 100%;
+   object-position: center;
+}
+ul{
+    display: flex;
+    font-weight: bolder;
+    color: #002d73;
+}
+
+
+
+li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.image-one{
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+    background-image: url('../Image/homeimg.jpg');
+    display: flex;
+}
+
+.image-one > img{
+    justify-content: center;
+    width: 74%;
+    padding: 225px;
+    margin-left: 43px;
+}
+
+.image-two{
+    width: 100%;
+    height: 800px;
+    background-image: url('../Image/Community-Animal-Care_1920x1080_03.03.23.jpg');
+    position: relative;
+}
+
+.image-two > button{
+    border-radius: 50px;
+    color: white;
+    background-color: #002d73;
+    height: 48px;
+    width: 150px;
+    border-style: solid;
+    position: absolute;
+    border: 0;
+    bottom: 9%;
+    left: 21%;
+    font-weight: bold;
+}
+
+.image-three{
+    width: 100%;
+    height: 660px;
+    background-color: #2f8ccc;
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    align-items: center;
+}
+.cow-logo-big{
+    width: 40%;
+    height: 80%;
+}
+
+.cow-logo-big > img{
+    width: 80%;
+   object-fit: cover;
+   padding: 0 auto;
+   margin-left: 20px;
+  
+}
+
+.txt{
+   
+    color: white;
+    font-weight: 56px;
+    height: 50%;
+    width: 150;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 0px 35px; */
+    margin: 0;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+   
+.txt > button{
+    border-radius: 50px;
+    color: white;
+    background-color: #002d73;
+    height: 48px;
+    width: 150px;
+    border-style: solid;
+    border: 0;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.txt-bttn{
+    width: 100%;
+    height: 250px;
+    background-color: #002d73;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-txt{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.do-it{
+    margin-top: 40px;
+    border-radius: 50px;
+    height: 48px;
+    width: 150px;
+    background-color: #002d73;
+    color: white;
+    border-style: solid;
+    font-weight: bold;
+    border-color: white;
+}
+.do-it:hover{
+   background-color: white;
+   color: #002d73;
+}
+
+.footer{
+   width: 100%;
+   height: 130px;
+   background-color: #002d73; 
+   display: flex;
+   flex-direction: row;
+}
+
+.footer>img{
+    padding-left: 124px;
+    width: fit-content;
+    height: 25%;
+}
+
+.foot-img{
+    width: 95%;
+    height: 25%;
+    margin-left: 60px;
+    margin-top: -10px;
+}
+
+.footertxt{
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    margin-left: 115px;
+}
+
+.icon>li{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50px;
+    align-items: flex-end;
+
+}
+.icon{
+    position: absolute;
+    right: 25%;
+}
+
+.footer-image{
+    width: 100%;
+    height: 200px;
+    background-color: #002d73;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-wfcf,.image-valid{
+    background-color: #002d73;
+    width: 165px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wfcf>img{
+    object-fit: cover;
+    width: 75%;
+    height: 83%;
+    padding: 10px;
+}
+
+.image-valid>img{
+    object-fit: cover;
+    width: 60%;
+    height: 60%;
+    margin: 23px;
+}
